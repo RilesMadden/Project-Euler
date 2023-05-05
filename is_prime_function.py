@@ -30,3 +30,23 @@ def is_prime(n):
             else:
                 f += 6
         return True
+
+
+
+# target number n
+# check every number between 1 and n-1
+# if any n % number == 0, then it's not prime
+# if no n % number == 0, then it is prime
+# optimizations: there won't be any number bigger than n/2 that's a factor, so only go from 1 to n/2
+# you can skip by 2 after the number 2, cause any even isnt prime
+
+# def check_is_prime(n):
+#     is_prime = True
+#     for i in range(2, n):
+#         if n % i == 0:
+#             is_prime = False
+#     return is_prime
+
+# print(check_is_prime(19))
+
+
