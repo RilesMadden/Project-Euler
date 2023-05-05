@@ -4,14 +4,15 @@ n = 7316717653133062491922511967442657474235534919493496983520312774506326239578
 
 # get this number as a list
     # turn it into a string, then do a quick loop to get it into the list
+# start at the beginning, multiply elements 0 - 12, 1-13, etc
+# if any of the numbers are 0, stop
 
 n_string = str(n)
 n_list = []
 for number in n_string:
     n_list.append(number)
 
-# start at the beginning, multiply elements 0 - 12, 1-13, etc
-# if any of the numbers are 0, stop
+
 largest_product = 0
 counter = 0
 while counter + 13 < 1000:

@@ -6,7 +6,7 @@ prime_counter = 4 # this takes care of 2,3,5,7
 latest_prime = 0
 k = 2
 while prime_counter < 10001:
-    a = 6*k -1
+    a = 6*k - 1
     b = 6*k + 1
     if is_prime(a):
         prime_counter += 1
