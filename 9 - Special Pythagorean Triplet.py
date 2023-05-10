@@ -25,7 +25,7 @@ for a in range(1, 1000):
 
 print(triplet)
 
-
+# Answer = (200, 375, 425)
 
 
 
