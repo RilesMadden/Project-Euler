@@ -19,6 +19,7 @@
 
 import math
 
+# My solution
 triangle_sum = 1
 counter = 2
 list_of_divisors = []
@@ -33,6 +34,41 @@ while len(list_of_divisors) < 500:
 print(triangle_sum)
 
 # Answer = 76576500
+
+# # Project Euler solution
+# from is_prime_function import list_of_primes
+# n = 3
+# Dn = 2
+# count = 0
+# array_of_primes = list_of_primes
+
+# while count <= 500:
+#     n = n+1
+#     n1 = n
+#     if n1 % 2 == 0:
+#         n1 = n1/2
+#     Dn1 = 1
+#     for i in range(0, len(array_of_primes)):
+#         if array_of_primes[i] * array_of_primes[i] > n1:
+#             Dn1 = 2*Dn1
+#             break
+#         else:
+#             exp = 1
+#             while n1 % array_of_primes[i] == 0:
+#                 exp += 1
+#                 n1 = n1 / array_of_primes[i]
+#             if exp > 1:
+#                 Dn1 = Dn1*exp
+#             if n1 == 1:
+#                 break
+#     count = Dn*Dn1
+#     Dn = Dn1
+
+# print(n*(n-1)/2)
+        
+
+    
+
 
 
 
