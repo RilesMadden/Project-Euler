@@ -22,39 +22,4 @@ time_2 = time.time()
 print(total_sum)
 print(time_2 - time_1)
 
-# time_1 = time.time()
-# total_sum = 17
-# counter = 2
-# counter_times_six = 6*counter
-# counter_times_six_minus_1 = 6*counter - 1
-# counter_times_six_plus_1 = 6*counter + 1
-# while counter_times_six_minus_1 < 20000000 or counter_times_six_plus_1 < 20000000:
-#     a = counter_times_six_minus_1
-#     b = counter_times_six_plus_1
-#     if is_prime(a) == True:
-#         total_sum += a
-#     if is_prime(b) == True:
-#         total_sum += b
-#     counter += 1
-# time_2 = time.time()
-
-# print(total_sum)
-# print(time_2 - time_1)
-
-
-# target = 2000000
-# time_1 = time.time()
-# total_sum = 17
-# counter = 2
-# for i in range(1,math.floor((target-1)/6)+1):
-#     counter_times_six_minus_1 = 6*counter - 1
-#     counter_times_six_plus_1 = 6*counter + 1
-#     if is_prime(counter_times_six_minus_1) == True:
-#         total_sum += counter_times_six_minus_1
-#     if is_prime(counter_times_six_plus_1) == True:
-#         total_sum += counter_times_six_plus_1
-#     counter += 1
-# time_2 = time.time()
-
-# print(total_sum)
-# print(time_2 - time_1)
+# Answer = 142913828922
