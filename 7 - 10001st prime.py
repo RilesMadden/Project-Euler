@@ -1,3 +1,5 @@
+# What is the 10,001st prime number?
+
 from is_prime_function import is_prime
 
 # every prime greater than 9 can be written as 6k +- 1
@@ -18,5 +20,6 @@ while prime_counter < 10001:
 print(prime_counter)
 print(latest_prime)
 
+# Answer = 104,743
 
 
