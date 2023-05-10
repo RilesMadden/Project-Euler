@@ -26,3 +26,5 @@ while is_divisible_by_all == False:
         is_divisible_by_all = True    
     
 print(smallest_positive_number)
+
+# Answer = 232792560
