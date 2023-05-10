@@ -32,6 +32,7 @@ while len(list_of_divisors) < 500:
 
 print(triangle_sum)
 
+# Answer = 76576500
 
 
 
