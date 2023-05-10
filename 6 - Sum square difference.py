@@ -16,3 +16,5 @@ square_of_sums = square_of_sums ** 2
 
 # Find the difference
 print(square_of_sums - sum_of_squares)
+
+# Answer = 25164150
