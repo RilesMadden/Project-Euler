@@ -37,11 +37,11 @@ def amicable_sum(num):
 # print(amicable_sum(284))
 
 # Project Euler solution
-sum = 0
-for a in range(2, 10000):
-    b = amicable_sum(a)
-    if b > a:
-        if amicable_sum(b) == a:
-            sum += a
-            sum += b
-print(sum)
+# sum = 0
+# for a in range(2, 10000):
+#     b = amicable_sum(a)
+#     if b > a:
+#         if amicable_sum(b) == a:
+#             sum += a
+#             sum += b
+# print(sum)
